@@ -1,0 +1,348 @@
+1625577177757	geckodriver	INFO	Listening on 127.0.0.1:14288
+1625577180943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileUJZNZf"
+1625577181571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileUJZNZf\\search.json.mozlz4", (void 0)))
+1625577184460	Marionette	INFO	Listening on port 14296
+1625577184646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&gdpr=0, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/domwalker27, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:499:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:57:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:113:18\nstop@resource://devtools/client/inspector/node-picker.js:176:18\n_destroyToolbox@resource://devtools/client/framework/toolbox.js:3731:24\ndestroy@resource://devtools/client/framework/toolbox.js:3669:10\ncloseToolbox@resource://devtools/client/framework/toolbox.js:3645:16\nonClick@resource://devtools/client/framework/components/ToolboxToolbar.js:456:26\ninvokeGuardedCallbackImpl@resource://devtools/client/shared/vendor/react-dom.js:74:10\ninvokeGuardedCallback@resource://devtools/client/shared/vendor/react-dom.js:111:29\ninvokeGuardedCallbackAndCatchFirstError@resource://devtools/client/shared/vendor/react-dom.js:125:25\nexecuteDispatch@resource://devtools/client/shared/vendor/react-dom.js:346:42\nexecuteDispatchesInOrder@resource://devtools/client/shared/vendor/react-dom.js:365:20\nexecuteDispatchesAndRelease@resource://devtools/client/shared/vendor/react-dom.js:462:29\nexecuteDispatchesAndReleaseTopLevel@resource://devtools/client/shared/vendor/react-dom.js:470:10\nforEachAccumulated@resource://devtools/client/shared/vendor/react-dom.js:444:8\nrunEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:598:21\nrunExtractedEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:606:19\nhandleTopLevel@resource://devtools/client/shared/vendor/react-dom.js:4272:30\nbatchedUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15752:12\nbatchedUpdates@resource://devtools/client/shared/vendor/react-dom.js:1882:12\ndispatchEvent@resource://devtools/client/shared/vendor/react-dom.js:4351:19\ninteractiveUpdates$1/<@resource://devtools/client/shared/vendor/react-dom.js:15803:14\nunstable_runWithPriority@resource://devtools/client/shared/vendor/react.js:617:12\ninteractiveUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15802:12\ninteractiveUpdates@resource://devtools/client/shared/vendor/react-dom.js:1901:10\ndispatchInteractiveEvent@resource://devtools/client/shared/vendor/react-dom.js:4328:21\n", "resource://devtools/shared/protocol/Front.js", 103))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625577512004	Marionette	INFO	Stopped listening on port 14296
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625577547668	geckodriver	INFO	Listening on 127.0.0.1:14691
+1625577550807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilembJMIM"
+1625577551347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilembJMIM\\search.json.mozlz4", (void 0)))
+1625577554154	Marionette	INFO	Listening on port 14699
+1625577554502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&gdpr=0, line 1: ReferenceError: CommonMeta is not defined
+1625577614413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625577674879	Marionette	INFO	Stopped listening on port 14699
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Keshav\AppData\Local\Temp\rust_mozprofilembJMIM\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625579503616	geckodriver	INFO	Listening on 127.0.0.1:1319
+1625579506788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofile1TnJWZ"
+1625579507216	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofile1TnJWZ\\search.json.mozlz4", (void 0)))
+1625579509838	Marionette	INFO	Listening on port 1327
+1625579510018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&gdpr=0, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625579715422	Marionette	INFO	Stopped listening on port 1327
+1625579758071	geckodriver	INFO	Listening on 127.0.0.1:1728
+1625579761241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileeUORMJ"
+1625579761751	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileeUORMJ\\search.json.mozlz4", (void 0)))
+1625579764285	Marionette	INFO	Listening on port 1736
+1625579764443	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+1625579915585	Marionette	INFO	Stopped listening on port 1736
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625579919108	geckodriver	INFO	Listening on 127.0.0.1:1832
+1625579922272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileKMaegp"
+1625579922744	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileKMaegp\\search.json.mozlz4", (void 0)))
+1625579925330	Marionette	INFO	Listening on port 1840
+1625579925496	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1625583970356	Marionette	INFO	Stopped listening on port 1840
+(new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofiletEMktV\\search.json.mozlz4", (void 0)))
+1625580040192	Marionette	INFO	Listening on port 1940
+1625580040242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625580048087	Marionette	INFO	Stopped listening on port 1940
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625583963741	geckodriver	INFO	Listening on 127.0.0.1:13463
+1625583966872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilexsXOkk"
+1625583967339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilexsXOkk\\search.json.mozlz4", (void 0)))
+1625583970331	Marionette	INFO	Listening on port 13473
+1625583970568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584086076	Marionette	INFO	Stopped listening on port 13473
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileUpJRuM"
+1625584012220	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileUpJRuM\\search.json.mozlz4", (void 0)))
+1625584014884	Marionette	INFO	Listening on port 13575
+1625584015050	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584031680	Marionette	INFO	Stopped listening on port 13575
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625584040448	geckodriver	INFO	Listening on 127.0.0.1:13719
+1625584043515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileZiaoBq"
+1625584044112	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileZiaoBq\\search.json.mozlz4", (void 0)))
+1625584046881	Marionette	INFO	Listening on port 13727
+1625584047243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1625584343592	Marionette	INFO	Stopped listening on port 13727
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileQwLwDO"
+1625584133674	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileQwLwDO\\search.json.mozlz4", (void 0)))
+1625584136263	Marionette	INFO	Listening on port 13824
+1625584136370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584339729	Marionette	INFO	Stopped listening on port 13824
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilef4svLP"
+1625584191280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilef4svLP\\search.json.mozlz4", (void 0)))
+1625584193922	Marionette	INFO	Listening on port 13914
+1625584194004	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+1625584593133	Marionette	INFO	Stopped listening on port 13914
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625584595033	geckodriver	INFO	Listening on 127.0.0.1:14088
+1625584598172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilekHjVph"
+1625584598706	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilekHjVph\\search.json.mozlz4", (void 0)))
+1625584601139	Marionette	INFO	Listening on port 14097
+1625584601412	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1625584636283	Marionette	INFO	Stopped listening on port 14097
+1625584638538	geckodriver	INFO	Listening on 127.0.0.1:14202
+1625584641667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileKrZo0H"
+1625584642135	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileKrZo0H\\search.json.mozlz4", (void 0)))
+1625584644671	Marionette	INFO	Listening on port 14210
+1625584644901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584758573	Marionette	INFO	Stopped listening on port 14210
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilevVHWOh"
+1625584733473	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilevVHWOh\\search.json.mozlz4", (void 0)))
+1625584736182	Marionette	INFO	Listening on port 14341
+1625584736304	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1625585276678	Marionette	INFO	Stopped listening on port 14341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileVaiyi7"
+1625585268801	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileVaiyi7\\search.json.mozlz4", (void 0)))
+1625585271203	Marionette	INFO	Listening on port 14595
+1625585271461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625585461138	Marionette	INFO	Stopped listening on port 14595
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofiles57tvT"
+1625585323132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofiles57tvT\\search.json.mozlz4", (void 0)))
+1625585325739	Marionette	INFO	Listening on port 14712
+1625585325828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625585551809	Marionette	INFO	Stopped listening on port 14712
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilejnAI29"
+1625585534595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofilejnAI29\\search.json.mozlz4", (void 0)))
+1625585537260	Marionette	INFO	Listening on port 14848
+1625585537373	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625585546369	Marionette	INFO	Stopped listening on port 14848
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625585554599	geckodriver	INFO	Listening on 127.0.0.1:14927
+1625585557722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileFcqaKl"
+1625585558291	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileFcqaKl\\search.json.mozlz4", (void 0)))
+1625585560959	Marionette	INFO	Listening on port 14936
+1625585561449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625585701272	Marionette	INFO	Stopped listening on port 14936
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileRbPipl"
+1625585670243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileRbPipl\\search.json.mozlz4", (void 0)))
+1625585672850	Marionette	INFO	Listening on port 1115
+1625585673024	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendors~main.14310645.js, line 42: Error: Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+1625585849971	Marionette	INFO	Stopped listening on port 1115
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625585851825	geckodriver	INFO	Listening on 127.0.0.1:1287
+1625585854967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileHK6TMH"
+1625585855429	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileHK6TMH\\search.json.mozlz4", (void 0)))
+1625585857931	Marionette	INFO	Listening on port 1295
+1625585858176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625585989118	Marionette	INFO	Stopped listening on port 1295
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileIB64Qd"
+1625585957668	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileIB64Qd\\search.json.mozlz4", (void 0)))
+1625585960239	Marionette	INFO	Listening on port 1430
+1625585960339	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1625587949070	Marionette	INFO	Stopped listening on port 1430
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+lebqWAAt\\search.json.mozlz4", (void 0)))
+1625586129199	Marionette	INFO	Listening on port 1595
+1625586129727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&gdpr=0, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625586220831	Marionette	INFO	Stopped listening on port 1595
+1625586240050	geckodriver	INFO	Listening on 127.0.0.1:1971
+1625586243153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileOUknni"
+1625586243691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keshav\\AppData\\Local\\Temp\\rust_mozprofileOUknni\\search.json.mozlz4", (void 0)))
+1625586246504	Marionette	INFO	Listening on port 1979
+1625586246892	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&gdpr=0, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625587938700	Marionette	INFO	Stopped listening on port 1979
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
